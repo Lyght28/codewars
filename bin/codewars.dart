@@ -1,5 +1,5 @@
-import 'package:codewars/SumOddNumbers.dart';
+import 'package:codewars/GrowthOfAPopulation.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${codewars.rowSumOddNumbers(n)}!');
+void main() {
+  print(nbYear(1500, 5, 100, 5000));
 }
