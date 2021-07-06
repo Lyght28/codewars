@@ -1,0 +1,1 @@
+List<int> flattenAndSort(List<List<int>> nums) => nums.expand((x) => x).toList()..sort();

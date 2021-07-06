@@ -2,7 +2,6 @@ import 'package:codewars/CountTheDigit.dart';
 import 'package:codewars/GrowthOfAPopulation.dart';
 
 void main() {
-  int test = 2527825672;
-  print(test.toString().split('2').length - 1);
-  print(nbDig(25, 1));
+  List<List<int>> list = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]];
+  print(list.expand((x) => x).toSet().toList());
 }
