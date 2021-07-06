@@ -1,5 +1,8 @@
+import 'package:codewars/CountTheDigit.dart';
 import 'package:codewars/GrowthOfAPopulation.dart';
 
 void main() {
-  print(nbYear(1500, 5, 100, 5000));
+  int test = 2527825672;
+  print(test.toString().split('2').length - 1);
+  print(nbDig(25, 1));
 }
