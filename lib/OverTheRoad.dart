@@ -1,0 +1,1 @@
+int overTheRoad(int address, int n) => (n * 2 + 1) - address;
