@@ -1,7 +1,11 @@
 import 'package:codewars/CountTheDigit.dart';
-import 'package:codewars/GrowthOfAPopulation.dart';
+import 'package:codewars/CountingDuplicates.dart';
 
 void main() {
-  List<List<int>> list = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]];
-  print(list.expand((x) => x).toSet().toList());
+  """
+  String test = '22112211';  
+  print('1'.allMatches(test.toLowerCase()));
+  test = test.replaceAll('1', '');
+  print(test);""";
+  print(duplicateCount('aaaacccaaaaabaaa2244bb66babb'));
 }
